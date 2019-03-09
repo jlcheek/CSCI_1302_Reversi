@@ -1,0 +1,14 @@
+package cs1302.p2;
+
+public abstract class Player{
+    
+    public Player(String p){
+	player = p;
+    }//Constructor
+    public void getPlayer(){
+	return player;
+    }
+    public String player;
+    public abstract int[] guess(String[][] userGuessArray);
+
+}//Player
